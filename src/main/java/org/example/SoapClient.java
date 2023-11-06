@@ -22,7 +22,7 @@ public class SoapClient {
                     soapConnection.call(createSOAPRequest(soapAction),
                             soapEndpointUrl);
 // Imprimir resposta
-            System.out.println("Response SOAP Message:");
+            System.out.println("\nResponse SOAP Message:");
             soapResponse.writeTo(System.out);
             System.out.println();
             soapConnection.close();

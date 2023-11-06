@@ -12,6 +12,10 @@ public class Principal {
         sc.setCEP("86812460");
         sc.callSoapWebService(soapEndpointUrl, soapAction);
 
+        System.out.println("\n---Requisicao1---");
+        sc.setCEP("86800040");
+        sc.callSoapWebService(soapEndpointUrl, soapAction);
+
         System.out.println("Fim!");
     }
 }
